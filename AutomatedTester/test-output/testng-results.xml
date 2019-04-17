@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19621" started-at="2019-04-09T12:25:44Z" finished-at="2019-04-09T12:26:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19621" started-at="2019-04-09T12:25:44Z" finished-at="2019-04-09T12:26:04Z">
+      <class name="com.qa.test.ChapterThreeTestPage">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.qa.test.ChapterThreeTestPage@4c203ea1]" name="setUP" is-config="true" duration-ms="9863" started-at="2019-04-09T17:55:44Z" finished-at="2019-04-09T17:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="verifyTextTwoPresence()[pri:1, instance:com.qa.test.ChapterThreeTestPage@4c203ea1]" name="verifyTextTwoPresence" duration-ms="47" started-at="2019-04-09T17:55:54Z" finished-at="2019-04-09T17:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTextTwoPresence -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.ChapterThreeTestPage@4c203ea1]" name="tearDown" is-config="true" duration-ms="68" started-at="2019-04-09T17:55:54Z" finished-at="2019-04-09T17:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.qa.test.ChapterThreeTestPage@4c203ea1]" name="setUP" is-config="true" duration-ms="9389" started-at="2019-04-09T17:55:54Z" finished-at="2019-04-09T17:56:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="verifyDatePresence()[pri:2, instance:com.qa.test.ChapterThreeTestPage@4c203ea1]" name="verifyDatePresence" duration-ms="125" started-at="2019-04-09T17:56:04Z" finished-at="2019-04-09T17:56:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDatePresence -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.ChapterThreeTestPage@4c203ea1]" name="tearDown" is-config="true" duration-ms="114" started-at="2019-04-09T17:56:04Z" finished-at="2019-04-09T17:56:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.test.ChapterThreeTestPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
