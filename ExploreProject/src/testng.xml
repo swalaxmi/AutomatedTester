@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+	<groups>
+		<run>
+			<exclude name="one"></exclude>
+		</run>
+	</groups>
+	<test name ="IgnoreTests">
+		<groups>
+			<run>
+				<exclude name="one"></exclude>
+			</run>
+		</groups>
+	
+	
+		<classes>
+			<class name="automationFramework.IgnoreTestScript" >
+				<methods>
+					<exclude name="first"></exclude>
+				</methods>
+			</class>
+		</classes>
+	
+	</test>
+	<test name="Test">
+  	<parameter name="emailId" value="swalaxmi.574@gmail.com" />
+	<parameter name="password" value="9441544685" />
+    <classes>
+      <class name="com.parameterTest.ParameterTest"/>
+    </classes>
+  </test> <!-- Test -->
+	
+  
+</suite> <!-- Suite -->
