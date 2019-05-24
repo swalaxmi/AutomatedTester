@@ -7,7 +7,7 @@ public class ReverseWords {
 		String s = "I LOVE INDIA";
 		String words[] = s.split(" ");
 		int length = words.length;
-		String reverse[] = new String[length];
+		//String reverse[] = new String[length];
 		System.out.println(length);
 		for(int i=length-1;i>=0;i--){
 			System.out.print(words[i]);
