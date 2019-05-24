@@ -8,19 +8,12 @@
   </listeners>
   <test name="Test">
     <classes>
-      <class name="com.qa.test.ChapterTwoTestPage"/>
-    </classes>
-  </test> <!-- Test -->
-  <test name="Test(failed)">
-    <classes>
       <class name="com.qa.test.ChapterTwoTestPage">
         <methods>
-          <include name="tearDown"/>
-          <include name="verifyDynamicTextPresence"/>
           <include name="verifyTextPresence"/>
-          <include name="setUp"/>
+          <include name="verifyIndexHyperlinkNavigation"/>
         </methods>
       </class> <!-- com.qa.test.ChapterTwoTestPage -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Test -->
 </suite> <!-- Failed suite [Suite] -->

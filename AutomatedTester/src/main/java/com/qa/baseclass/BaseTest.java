@@ -22,7 +22,7 @@ public class BaseTest {
 		
 		try {
 			property = new Properties();
-			FileInputStream fis = new FileInputStream("E:\\Automation\\AutomatedTester\\src\\main\\java\\com\\qa\\propertyfiles\\config.properties");
+			FileInputStream fis = new FileInputStream("C:\\Users\\swathi.korampally\\git\\AutomatedTester\\AutomatedTester\\src\\main\\java\\com\\qa\\propertyfiles\\config.properties");
 				property.load(fis);
 			} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

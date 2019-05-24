@@ -13,6 +13,7 @@
      <!--   <class name="com.qa.test.AllTest"/> -->
      <!--   <class name="com.qa.test.ChapterOneTestPage"/>  -->
      		<class name="com.qa.test.ChapterTwoTestPage" />
+     			
    
     </classes>
   </test> <!-- Test -->

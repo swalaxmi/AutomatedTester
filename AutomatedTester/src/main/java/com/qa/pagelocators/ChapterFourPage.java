@@ -22,12 +22,12 @@ public class ChapterFourPage extends BaseTest {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public WebElement checkAlertInputField(){
+	public String checkAlertInputField(){
 		alertfield.sendKeys("inputbox");
 		loadbutton.click();
 		String alerttext = driver.switchTo().alert().getText();
 		driver.switchTo().alert().accept();
-		return loadbutton;
+		return alerttext;
 	}
 	
 	public void enterTextInField(){
